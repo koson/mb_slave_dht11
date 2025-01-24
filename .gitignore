@@ -1,0 +1,49 @@
+# ESP-IDF specific
+build/
+sdkconfig
+sdkconfig.old
+*.elf
+*.map
+*.bin
+*.log
+
+# Compiled object files
+*.o
+*.obj
+*.d
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.a
+
+# Executables
+*.exe
+
+# Directories
+.vscode/
+.ccls-cache/
+.clangd/
+
+# Other
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+*.log
+*.patch
+*.diff
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+/managed_components
